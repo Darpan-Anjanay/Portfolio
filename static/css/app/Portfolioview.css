@@ -1,0 +1,153 @@
+:root {
+  --bg-color: #f3f2ef;
+  --card-bg: #ffffff;
+  --text-color: #1d2226;
+  --subtext-color: #434649;
+  --primary: #0077b5;
+  --primary-dark: #005983;
+  --border-color: #dce6f1;
+  --badge-bg: #eaf4fb;
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1c1c1e;
+  --card-bg: #2c2c2e;
+  --text-color: #f5f5f7;
+  --subtext-color: #b0b3b8;
+  --primary: #0a66c2;
+  --primary-dark: #004471;
+  --border-color: #3a3b3c;
+  --badge-bg: #3b3f42;
+}
+
+body {
+  font-size: 11px !important;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  border: 2px solid var(--primary);
+  max-width: 100%;
+  height: auto;
+}
+
+#full_name {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: var(--primary);
+}
+
+#working_as {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--primary-dark);
+}
+
+#contact {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--subtext-color);
+}
+
+p,
+.card-theme p,
+.work-card p {
+  font-size: 14px;
+  text-align: justify;
+  color: var(--subtext-color);
+}
+
+.card-theme {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  box-shadow: none;
+}
+
+.title {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+  margin: 30px 0 15px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 4px;
+}
+
+.btn-sm {
+  margin-bottom: 5px;
+  background-color: var(--primary);
+  color: #fff;
+  border: none;
+  font-size: 13px;
+}
+
+.btn-sm:hover {
+  background-color: var(--primary-dark);
+  color: #fff;
+}
+
+.btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.badge.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.technology {
+  height: 150px;
+}
+
+.technology-card {
+  height: 210px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+.technology-card ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.technology-card li {
+  font-size: 14px;
+  color: var(--subtext-color);
+}
+
+.work-card h5,
+.card-theme h5 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  color: var(--primary);
+}
+
+.work-card small,
+.card-theme small {
+  font-size: 13px;
+  color: #6c757d;
+}
