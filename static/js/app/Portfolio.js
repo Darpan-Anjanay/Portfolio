@@ -199,11 +199,11 @@ function setTheme(theme) {
   themeToggleBtn.innerHTML = `<i class="bi ${icon}"></i>`;
 }
 
-const savedTheme = localStorage.getItem("theme") || "light";
+const savedTheme = localStorage.getItem("theme") || "dark";
 setTheme(savedTheme);
 
 themeToggleBtn.addEventListener("click", () => {
   const current = document.documentElement.getAttribute("data-theme");
-  const next = current === "dark" ? "light" : "dark";
+  const next = current === "light" ? "dark" : "light";
   setTheme(next);
 });
