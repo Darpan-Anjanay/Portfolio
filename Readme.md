@@ -6,7 +6,7 @@ Easily showcase your **skills**, **projects**, **work history**, and **resume**,
 
 ## Features
 
-- **User Authentication**: Register, Login, Logout, Profile Update
+- **User Authentication**: Register(Via Admin cmd), Login, Logout, Profile Update
 - **Dynamic Portfolio Sections**:
   - Skills
   - Projects
