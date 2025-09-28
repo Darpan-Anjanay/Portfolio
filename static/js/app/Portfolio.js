@@ -75,7 +75,7 @@ function loadProfile(profileName) {
                 return `
                 <div class="col mb-3">
                     <div class="technology card-theme">
-                    <div class="techcategory">${tech.name}</div>
+                    <div class="techcategory"><h5>${tech.name}</h5></div>
                     <ul>${techshmtl}</ul>
                     </div>
                 </div>
